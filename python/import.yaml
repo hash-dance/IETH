@@ -1,0 +1,6 @@
+mongodb:
+  server: 192.168.1.157:27037
+  username: admin
+  password: admin
+  database: iso-offline-deals
+miner: f010617

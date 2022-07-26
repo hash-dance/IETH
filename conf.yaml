@@ -1,0 +1,31 @@
+mongodb:
+  server: 172.18.6.72:27077
+  noAuth: false
+  username: xjyt
+  password: xjyt
+  database: iso-offline-deals
+# mongodb:
+#  server: 192.168.1.157:27037
+#  noAuth: false
+#  username: admin
+#  password: admin
+#  database: ieth
+
+lotus:
+  token: ""
+  address: "172.18.6.72:5001"
+baseConf:
+  repo: ~/.ieth
+  debug: true
+  cors: true
+  logFormat: text
+  logPath: ./log
+  logDispatch: false
+  httpListenPort: 8088
+  monitor: true
+  sessionTimeout: 30
+  ssl: false
+  sslCrtFile: ""
+  sslKeyFile: ""
+setting:
+  dealTimeout: 10 ## 订单查询更新

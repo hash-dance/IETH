@@ -1,0 +1,19 @@
+mongodb:
+  server: 192.168.1.157:27037
+  username: admin
+  password: admin
+  database: iso-offline-deals
+setting:
+  dealTimeout: 20 ## 订单查询更新
+  minerMaxDeals: 2
+  maxDealNums: 10
+  wallet: f3tgyeflr6s5aubvjilx4kvhqhbba5couxadsgl3xrsyjb2ay2zp3gurtmd3c22nqsztdoqg7qrkbnfh7tttlq
+  duration: 1056317  
+miners:
+  - miner: f010617
+    price: 0
+  - miner: f022289
+    price: 0
+  - miner: f023871
+    price: 0
+        
